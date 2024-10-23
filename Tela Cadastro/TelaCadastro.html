@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+        <!-- link do tipo de fonte (tem que colocar em cima do style) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- link dos icones, tem que ser colocado abaixxo do style -->
+    <script src="https://kit.fontawesome.com/ca9f1a24ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header é a tag responsável por criar o cabeçalho na parte superior da página -->
+    <header>
+        <!-- criei uma classe  para organizar as outras calsses dentro dele -->
+        <div class="cabecalho">
+            <!-- criei uma classe para a logo do site -->
+            <div class="logo">
+                <img src="Logo.png" height="54" width="165" alt="Logo da Página">
+            </div>
+    
+            <!-- criei uma classe para as funções de acesso -->
+            <div class="funcoes">
+                <a href="#home">Home</a>
+                <a href="produto">Produto</a>
+                <a href="serviços">Serviços</a>
+                <a href="Contato">Contato</a>
+            </div>
+    
+            <!-- Classe responsável pelos icones -->
+            <div class="icones">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <br/>
+        </div> <br/>
+        <!-- criei essa classe pra a linha na parte de baixo do cabeçalho, a tag usada pra criar a linha é essa <hr> width é a altura da linha -->
+        <div class="linha"> <hr width="1" > </div>
+    </header>
+
+    <fieldset>
+        <h1 class="msg"> Crie sua conta<span class="first">.</span> </h1>
+
+        <form action="" method="get">
+            Nome e Sobrenome <br/>
+            <input type="text" name="nome" placeholder="Digite o nome e sobrenome"> <br/>
+            
+            E-mail <br/>
+            <input type="email" name="email" placeholder="Digite seu e-mail"> <br/>
+            
+            Contato <br/>
+            <input type="text" name="contato" placeholder="DDD + Celular"> <br/>
+            
+            Data de nascimento <br/>
+            <input type="text" name="data" placeholder="00/00/0000"> <br/>
+            
+            CPF <br/>
+            <input type="text" name="cpf" placeholder="Digite seu cpf"> <br/>
+            
+            <span class="senha">
+                <div>
+                    Senha <br/>
+                    <input type="text" name="senha" placeholder="Digite sua senha">
+                </div>
+                <div>
+                    Confirmar a Senha<br/>
+                    <input type="text" name="confirmarsenha" placeholder="Confirme sua senha">
+                </div>
+            </span>
+        </form>
+        
+        <h3 class="msg2"> Dados do seu pet<span class="first">.</span> </h3>
+        
+        <form action="" method="get">
+            Nome <br/>
+            <input type="text" name="nome" placeholder="Digite o nome do seu pet"> <br/>
+
+            Espécie <br/>
+            <input type="text" name="especie" placeholder="Digite a espécie do seu pet"> <br/>
+
+            Raça <br/>
+            <input type="text" name="raca" placeholder="Digite a raça do seu pet"> <br/>
+
+            Idade <br/>
+            <input type="text" name="idade" placeholder="Digite a idade do seu pet"> <br/>
+        </form> <br/>
+
+        <input type="checkbox" class="in" name="termos"> <label class="termos" for="termos"> Concordo com os </label> <span class="second">termos e condições</span> <br/>
+
+        <button class="botao"> Cadastrar </button>
+
+    </fieldset>
+    
+</body>
+</html>

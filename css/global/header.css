@@ -1,0 +1,27 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  border-bottom: 2px solid var(--cor-5);
+}
+
+.menu-icons{
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  align-items: center;
+}
+
+.menu-links{
+  display: flex;
+  gap: 30px;
+}
+
+.menu-links a{
+  transition: .4s;
+}
+
+.menu-links a:hover{
+  color: var(--cor-4);
+}

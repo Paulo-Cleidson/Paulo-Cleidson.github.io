@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F6FA; /*deixa o fundo dá página inteira em cinza*/
+}
+
+.linha {
+    background: #00A2C2; /* cor da linha na parte de baixo */
+}
+
+header {
+    color: #00A2C2; /* cor das fontes no cabeçalho */
+    font-family: "Poppins", sans-serif; /* estilo de fonte do cabeçalho */
+}
+
+.cabecalho {
+    padding-top: 10px; /* distância do topo da página */
+    justify-content: center; /* define que o conteúdo sempre ficará alinhado no centro da tela */
+    display: flex; /* define o conteudo em colunas lado a lado */
+    align-items: center; /* alinha as colunas verticalmente no centro */
+    gap: 200px; /* distância entre as colunas (existem três colunas no cabeçalho, logo, funções e ícones) */
+}
+
+.funcoes a {
+    color: #00A2C2; /* cor das funções */
+    padding: 14px 20px; /* espaçamento interno entre as funções */
+
+}
+
+.icones {
+    cursor: pointer; /* muda o mouse para formato de mão quando passa em cima dos ícones */
+    display: flex; /* define as colunas lado a lado (colunas criadas no cabeçalho para cada div dentro dele) */
+    gap: 18px; /* distância entre os ícones */
+}
+
+.funcoes a:hover {
+    color: #FB391E; /*colore a função quando passa o mouse em cimaa*/
+}
+
+.icones i:hover {
+    color: #FB391E; /*colore o icone quando passa o mouse em cimaa*/
+}
+
+.msg {
+    background-color: white;
+    color: #00A2C2;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.msg2 {
+    padding-top: 20px;
+    background-color: white;
+    color: #00A2C2;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.first{
+    background-color: white;
+    color: #FB391E;
+}
+
+.entradas {
+    background-color: white;
+}
+
+form {
+    background-color: white;
+    align-items: initial;
+    line-height: 220%;
+}
+
+.termos{
+    color: #00A2C2;
+    background-color: white;
+    font-size:small;
+}
+
+.in {
+    cursor: pointer;
+}
+
+.second{
+    background-color: white;
+    color: #FB391E;
+    font-size:small;
+}
+
+fieldset {
+    padding: 30px 50px 30px 50px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-left: 30%;
+    margin-right: 30%;
+    gap: 20px;
+}
+
+form input{
+    border: none;
+    width: 380px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #bcbcbc;
+    padding-left: 10px;
+}
+
+.senha {
+    display: flex;
+    background-color: white;
+    padding-top: 20px;
+    gap: 18px;
+}
+
+.senha input{
+    width: 175px;
+    height: 30px;
+}
+
+.senha div {
+    background-color: white;
+}
+
+.botao {
+    color: rgba(0, 0, 0, 0.699);        
+    border: black;              
+    border: none;            
+    padding: 8px 25px;       
+    text-align: center;    
+    display: inline-block; 
+    font-size: 16px;         
+    margin: 10px;            
+    cursor: pointer;         
+    border-radius: 5px;      
+    transition: background-color 0.3s;
+    box-shadow: 3px 3px 3px #bcbcbc;
+}
+
+button:hover{
+    color: white;
+    background-color: #FB391E;
+}

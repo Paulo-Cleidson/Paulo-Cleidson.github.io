@@ -1,0 +1,33 @@
+/* FONT 1 - POPPINS */
+
+.font-1-G{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  letter-spacing: 8%;
+}
+
+.font-1-M{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 8%;
+}
+
+.font-1-P{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-1-PP{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* FONT 2 - PACIFICO */
+.font-2-M{
+  font-family: 'Pacifico', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}

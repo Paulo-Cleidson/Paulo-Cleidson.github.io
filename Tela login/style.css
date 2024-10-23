@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F6FA; /*deixa o fundo dá página inteira em cinza*/
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.linha {
+    background: #00A2C2; /* cor da linha na parte de baixo */
+}
+
+header {
+    color: #00A2C2; /* cor das fontes no cabeçalho */
+    font-family: "Poppins", sans-serif; /* estilo de fonte do cabeçalho */
+}
+
+.cabecalho {
+    padding-top: 10px; /* distância do topo da página */
+    justify-content: center; /* define que o conteúdo sempre ficará alinhado no centro da tela */
+    display: flex; /* define o conteudo em colunas lado a lado */
+    align-items: center; /* alinha as colunas verticalmente no centro */
+    gap: 200px; /* distância entre as colunas (existem três colunas no cabeçalho, logo, funções e ícones) */
+}
+
+.funcoes a {
+    color: #00A2C2; /* cor das funções */
+    padding: 14px 20px; /* espaçamento interno entre as funções */
+
+}
+
+.icones {
+    cursor: pointer; /* muda o mouse para formato de mão quando passa em cima dos ícones */
+    display: flex; /* define as colunas lado a lado (colunas criadas no cabeçalho para cada div dentro dele) */
+    gap: 18px; /* distância entre os ícones */
+}
+
+.funcoes a:hover {
+    color: #FB391E; /*colore a função quando passa o mouse em cimaa*/
+}
+
+.icones i:hover {
+    color: #FB391E; /*colore o icone quando passa o mouse em cimaa*/
+}
+
+.info {
+    padding: 30px 80px 30px 80px;
+}
+
+.info2 {
+    align-items: start;
+    padding: 60px 10px 10px 80px;
+    background-color: white;
+    color: #93A2A4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 220%;
+}
+
+fieldset {
+    background-color: white;
+    box-shadow: 2px 2px 2px #cfcece;
+    display: flex;
+    align-items: start;
+    border: none;
+    gap: 70px;
+
+}
+
+.img {
+    padding: 100px 40px 150px 40px;
+    background-color: white;
+}
+
+.msg {
+    background-color: white;
+    color: #00A2C2;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.msg2 {
+    background-color: white;
+    color: #FB391E;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.msg3 {
+    background-color: white;
+    color: #93A2A4;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input {
+    background-color: white;
+    border-color: #F0F0F0;
+    width: 390px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: -3%;
+}
+
+input[type=checkbox] {
+    width: 38px;
+    height: 13px;
+    cursor: pointer;
+}
+
+.senhas {
+    background-color: white;
+    color: #93A2A4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    display: flex;
+    gap: 90px;
+    margin-left: -3%;
+}
+
+h4 {
+    background-color: white;
+    color: #93A2A4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+section {
+    background-color: white;
+}
+
+.botoes {
+    display: flex;
+    background-color: white;
+    gap: 45px;
+    margin-left: -3%;
+}
+
+.entrar {
+    color: white;
+    background-color: #00A2C2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 17px 65px;
+}
+
+.cadastrar {
+    color: white;
+    background-color: #00A2C2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 18px 35px;
+}
+
+button:hover {
+    background-color:#FB391E;
+}

@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5f6fad5;
+}
+
+.linha {
+    background: #00A2C2;
+}
+
+.flex {
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    align-items:initial;
+    gap: 200px;
+}
+
+.flex-left {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-left h1 {
+    align-self: flex-start;
+}
+
+.info {
+    color: #00A2C2;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20%;
+}
+
+.flex-left img {
+    bottom: 0;
+}
+
+.first, .second{
+    color: #00A2C2;
+}
+
+.tird{
+    color: #FB391E;
+}
+
+header {
+    color: #00A2C2;
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.cabecalho {
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.funcoes a {
+    color: #00A2C2;
+    padding: 14px 20px;
+}
+
+.icones {
+    cursor: pointer;
+    display: flex;
+    gap: 18px;
+}
+
+.funcoes a:hover {
+    color: #FB391E;
+}
+
+.icones i:hover {
+    color: #FB391E;
+}
+
+form {
+    background-color: white;
+}
+
+fieldset {
+    margin: 30px;
+    padding: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+input {
+    border: none;
+    width: 380px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #bcbcbc;
+    padding-left: 10px;
+}
+
+button:hover{
+    color: white;
+    background-color: #FB391E;
+}
+
+textarea {
+    border: none;
+    width: 380px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #bcbcbc;
+    padding-left: 10px;
+}
+
+.atendimento{
+    color: rgba(0, 0, 0, 0.699);             
+    border: none;              /* Sem borda */
+    padding: 8px 25px;       /* Espaçamento interno */
+    text-align: center;        /* Centralizar o texto */
+    display: inline-block;     /* Permite definir largura e altura */
+    font-size: 16px;           /* Tamanho da fonte */
+    margin: 10px;             /* Margem externa */
+    cursor: pointer;           /* Cursor em forma de mão ao passar o mouse */
+    border-radius: 5px;       /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Efeito de transição */
+    box-shadow: 5px 5px 5px #bcbcbc;
+}
+
+.racoes{
+    color: rgba(0, 0, 0, 0.699);             
+    border: black;
+    padding: 8px 25px;      
+    text-align: center;       
+    display: inline-block;   
+    font-size: 16px;           
+    margin: 10px;           
+    cursor: pointer;         
+    border-radius: 5px;      
+    transition: background-color 0.3s; 
+    box-shadow: 5px 5px 5px #bcbcbc;
+}
+
+.banhos{
+    color: rgba(0, 0, 0, 0.699);           
+    border: black;
+    padding: 8px 25px;       
+    text-align: center;        
+    display: inline-block;    
+    font-size: 16px;          
+    margin: 10px;         
+    cursor: pointer;        
+    border-radius: 5px;      
+    transition: background-color 0.3s; 
+    box-shadow: 5px 5px 5px #bcbcbc;
+}
+
+.tosas{
+    color: rgba(0, 0, 0, 0.699);           
+    border: black;
+    padding: 8px 25px;     
+    text-align: center;       
+    display: inline-block;     
+    font-size: 16px;        
+    margin: 10px;         
+    cursor: pointer;          
+    border-radius: 5px;     
+    transition: background-color 0.3s; 
+    box-shadow: 5px 5px 5px #bcbcbc;
+}
+
+.outros{
+    color: rgba(0, 0, 0, 0.699);        
+    border: black;           
+    padding: 8px 25px;       
+    text-align: center;        
+    display: inline-block;     
+    font-size: 16px;        
+    margin: 10px;          
+    cursor: pointer;          
+    border-radius: 5px;       
+    transition: background-color 0.3s;
+    box-shadow: 5px 5px 5px #bcbcbc;
+}
+
+.botao {
+    background-color: #00A2C2;
+    color: white;        
+    border: black;              
+    border: none;            
+    padding: 8px 25px;       
+    text-align: center;    
+    display: inline-block; 
+    font-size: 16px;         
+    margin: 10px;            
+    cursor: pointer;         
+    border-radius: 5px;      
+    transition: background-color 0.3s;
+    box-shadow: 5px 5px 5px #bcbcbc;
+}
