@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <!-- link dos icones, tem que ser colocado abaixxo do style -->
     <script src="https://kit.fontawesome.com/ca9f1a24ad.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- header é a tag responsável por criar o cabeçalho na parte superior da página -->
     <header>
@@ -24,10 +26,11 @@
     
             <!-- criei uma classe para as funções de acesso -->
             <div class="funcoes">
-                <a href="#home">Home</a>
-                <a href="produto">Produto</a>
-                <a href="serviços">Serviços</a>
-                <a href="Contato">Contato</a>
+                <a href="index.html">Home</a>
+                <a href="./Tela Produtos/Index.html">Produto</a>
+                <a href="./Tela Serviços/index.html">Serviços</a>
+                <a href="./Tela Contato/TelaContato.html">Contato</a>
+                <a href="./Tela Faq/index.html">Faq</a>
             </div>
     
             <!-- Classe responsável pelos icones -->
@@ -39,12 +42,26 @@
             <br/>
         </div>
         <!-- criei essa classe pra a linha na parte de baixo do cabeçalho, a tag usada pra criar a linha é essa <hr> width é a altura da linha -->
-        <div class="linha"> <hr width="1" > </div>
+        <div class="linha"> 
+            <hr width="1" >
+        </div>
     </header>
 
     <section class="main container">
-      <h1 class="text-gradient">O melhor lugar para cuidar do seu melhor amigo.</h1>
-      <img src="./img/imagens/img-telaHome.jpg" alt="">
+
+        <div class="flex">
+            <h1 class="text-gradient">O melhor lugar para cuidar do seu melhor amigo.</h1>
+            <p class="text">Contrate nossos serviços ou entre em contato!</p>
+
+            <div class="links-item">
+                <input class="botao-pesquisar" type="text" placeholder="O que você procura?">
+                <a href="/" class="buscar">Buscar</a>
+            </div>
+            <a href="btn-wpp" class="btn-wpp">Agende um serviço</a>
+
+        </div>
+        <img src="./img/imagens/img-telaHome.jpg" alt="">
+
     </section>
     
 </body>

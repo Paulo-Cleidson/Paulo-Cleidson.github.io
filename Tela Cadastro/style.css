@@ -18,7 +18,7 @@ header {
     justify-content: center; /* define que o conteúdo sempre ficará alinhado no centro da tela */
     display: flex; /* define o conteudo em colunas lado a lado */
     align-items: center; /* alinha as colunas verticalmente no centro */
-    gap: 200px; /* distância entre as colunas (existem três colunas no cabeçalho, logo, funções e ícones) */
+    gap: 180px; /* distância entre as colunas (existem três colunas no cabeçalho, logo, funções e ícones) */
 }
 
 .funcoes a {

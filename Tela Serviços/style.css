@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F6FA; /*deixa o fundo dá página inteira em cinza*/
+}
+
+.linha {
+    background: #00A2C2; /* cor da linha na parte de baixo */
+}
+
+header {
+    color: #00A2C2; /* cor das fontes no cabeçalho */
+    font-family: "Poppins", sans-serif; /* estilo de fonte do cabeçalho */
+}
+
+.cabecalho {
+    padding-top: 10px; /* distância do topo da página */
+    justify-content: center; /* define que o conteúdo sempre ficará alinhado no centro da tela */
+    display: flex; /* define o conteudo em colunas lado a lado */
+    align-items: center; /* alinha as colunas verticalmente no centro */
+    gap: 200px; /* distância entre as colunas (existem três colunas no cabeçalho, logo, funções e ícones) */
+}
+
+.funcoes a {
+    color: #00A2C2; /* cor das funções */
+    padding: 14px 20px; /* espaçamento interno entre as funções */
+
+}
+
+.icones {
+    cursor: pointer; /* muda o mouse para formato de mão quando passa em cima dos ícones */
+    display: flex; /* define as colunas lado a lado (colunas criadas no cabeçalho para cada div dentro dele) */
+    gap: 18px; /* distância entre os ícones */
+}
+
+.funcoes a:hover {
+    color: #FB391E; /*colore a função quando passa o mouse em cimaa*/
+}
+
+.icones i:hover {
+    color: #FB391E; /*colore o icone quando passa o mouse em cimaa*/
+}
+
+.servicos {
+    padding-top: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 100px
+}
+
+.servicos button {
+    color: #5bb1aa;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 9px 50px;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
+}
+
+.servicos button:hover {
+    /* box-shadow: Deslocamento horizontal(x), Deslocamento vertical(y), Desfoque(blur), Espalhamento(spread), Cor */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+}
+
+.servicos .veterinario {
+    color: #FA2205;
+}
+.servicos .adestramento {
+    color: #07C51A;
+}
+.servicos .hospedagem {
+    color: #AA88FF;
+}
+
+.banhoEtosa {
+    padding-top: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.title{
+    background: linear-gradient(to right, #00CEF7, #00A2C2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    color: #00363E;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to left, #49DEF2, #10AEC3);
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.item p {
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.containers {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container2 {
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont_first {
+    color: #21BBCF;
+    font-family: "Poppins", sans-serif;
+}
+
+.field_first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    height: 200px;
+    width: 630px;
+    line-height: 2;
+}
+
+.container2 button {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #03B9D1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 150px;
+}
+
+.cont_second {
+    font-family: "Poppins", sans-serif;
+    color: #ff5b45;
+}
+
+.buttons_small button {
+    background-color: #ff5b45;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
+    width: 200px;
+    height: 60px;
+}
+
+.container3 button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+}
+
+.button_big1 button{
+    background-color: #ff5b45;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
+    width: 405px;
+    height: 70px;
+}
+
+.button_big1 label{
+    background-color: #ff5b45;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button_big2 button{
+    background-color: #ff5b45;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.178);
+    width: 405px;
+    height: 70px;
+}
+
+.button_big2 label{
+    background-color: #ff5b45;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cont_third {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #21BBCF;
+    font-family: "Poppins", sans-serif;
+}

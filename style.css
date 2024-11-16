@@ -21,7 +21,7 @@ header {
     justify-content: center;
     display: flex;
     align-items: center;
-    gap: 200px;
+    gap: 180px;
 }
 
 .funcoes a {
@@ -72,4 +72,56 @@ header {
     color: transparent;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
+}
+
+.links-item {
+    padding-top: 46px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
   }
+  
+  .botao-pesquisar {
+    padding: 14px;
+    border: 1px solid #e7e7e7;
+    border-radius: 9px;
+    background: #fff;
+  }
+  
+  .botao-pesquisar:focus {
+    border: 1px solid #00a2c2;
+    outline: none;
+  }
+  
+  .buscar {
+    padding: 10px 40px;
+    background-color: #fb391e;
+    border-radius: 8px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+  }
+  
+  .buscar:hover {
+    background-color: #c32c18;
+  }
+  
+  .btn-wpp {
+    background-color: #01b1c8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+  }
+  .btn-wpp:hover {
+    background-color: #0692a4;
+  }
+  
+  .text{
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      color: #AEC4C7;
+      padding-top: 40px;
+  }
+  
