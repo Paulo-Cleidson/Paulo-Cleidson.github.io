@@ -53,11 +53,6 @@ header {
     font-family: "Poppins", sans-serif;
 }
 
-label {
-    color: #00a2c2;
-    font-family: "Poppins", sans-serif;
-}
-
 .main{
     display: flex;
     justify-content: space-between;
@@ -121,11 +116,6 @@ label {
 
 .btn-wpp:hover {
     background-color: #c32c18;
-}
-
-label:hover {
-    cursor: pointer;
-    color: #c32c18;
 }
   
 .text{
