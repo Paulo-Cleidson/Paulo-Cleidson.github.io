@@ -29,15 +29,18 @@ header {
 }
 
 .funcoes a {
-    color: #00A2C2; /* cor das funções */
-    padding: 14px 20px; /* espaçamento interno entre as funções */
-
+    color: #00A2C2;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
-.icones {
-    cursor: pointer; /* muda o mouse para formato de mão quando passa em cima dos ícones */
-    display: flex; /* define as colunas lado a lado (colunas criadas no cabeçalho para cada div dentro dele) */
-    gap: 18px; /* distância entre os ícones */
+.icones, .icones a {
+    cursor: pointer; 
+    display: flex; 
+    gap: 18px;
+    color: #00A2C2;
+    text-decoration: none;
 }
 
 .funcoes a:hover {
@@ -99,6 +102,16 @@ fieldset {
     font-style: normal;
 }
 
+.senhas {
+    background-color: white;
+    color: #93A2A4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    display: flex;
+    gap: 90px;
+    margin-left: -3%;
+}
+
 input {
     background-color: white;
     border-color: #F0F0F0;
@@ -113,16 +126,7 @@ input[type=checkbox] {
     width: 38px;
     height: 13px;
     cursor: pointer;
-}
-
-.senhas {
-    background-color: white;
-    color: #93A2A4;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    display: flex;
-    gap: 90px;
-    margin-left: -3%;
+    background-color: #FB391E;
 }
 
 h4 {
@@ -131,6 +135,10 @@ h4 {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     cursor: pointer;
+}
+
+h4:hover {
+    color: #FB391E;
 }
 
 section {
@@ -144,26 +152,17 @@ section {
     margin-left: -3%;
 }
 
-.entrar {
+.btn-wpp {
     color: white;
     background-color: #00A2C2;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 18px;
-    padding: 17px 65px;
+    padding: 17px 50px;
+    text-decoration: none;
 }
 
-.cadastrar {
-    color: white;
-    background-color: #00A2C2;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 18px;
-    padding: 18px 35px;
-}
-
-button:hover {
+.btn-wpp:hover {
     background-color:#FB391E;
 }

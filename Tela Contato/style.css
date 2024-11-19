@@ -61,13 +61,17 @@ header {
 
 .funcoes a {
     color: #00A2C2;
-    padding: 14px 20px;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
-.icones {
-    cursor: pointer;
-    display: flex;
+.icones, .icones a {
+    cursor: pointer; 
+    display: flex; 
     gap: 18px;
+    color: #00A2C2;
+    text-decoration: none;
 }
 
 .funcoes a:hover {
